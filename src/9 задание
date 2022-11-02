@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 29000;
+        double b = 0;
+        for (int i=1; i<13 ; i++) {
+            System.out.println("В месяце "+i+" сумма накоплений составит "+b+" рублей");
+            if (i>1) {
+                b=b*101/100;}
+            b=b+a;
+
+        }}}

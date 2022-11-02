@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+for (int i = 1904; i!=2097; i++) {
+if (i%4==0){
+    System.out.println(i);}
+}
+for (int c = 7; c<=98; c++) {if (c%7==0) {
+    System.out.println(c);}}
+for (int a = 1; a<=512; a=a*2) {
+            System.out.println(a);}
+
+
+    }}
